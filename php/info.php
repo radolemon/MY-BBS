@@ -51,6 +51,39 @@
                 font-size: 0.95rem;
                 margin: 40px 0 10px 0;
             }
+
+            /*main {
+                max-width: 600px;
+                margin: 40px auto 0 auto;
+                background: #fff;
+                border-radius: 16px;
+                box-shadow: 0 4px 24px rgba(80,80,160,0.08);
+                padding: 32px 28px 24px 28px;
+            }*/
+
+            .content-card {
+                max-width: 700px;
+                margin: 40px auto 40px auto;
+                background: #fff;
+                border-radius: 12px;
+                padding: 24px;
+                box-shadow: 0 2px 16px rgba(80,80,160,0.13);
+                margin-bottom: 24px;
+            }
+
+            .content-card h2 {
+                text-align: center;
+                margin-top: 0;
+                font-size: 1.8rem;
+                color:rgb(110, 118, 233);
+            }
+
+            .content-card p {
+                margin: 16px 0;
+                font-size: 1rem;
+                line-height: 1.6;
+                color: #555;
+            }
         </style>
     </head>
 
@@ -62,5 +95,14 @@
             <a href="../php/info.php">掲示板について</a>
             <a href="../php/issues.php">お問い合わせ</a>
         </header>
+
+        <main>
+            <div class="content-card">
+                <h2>掲示板について</h2>
+                <p>この掲示板は、GMC-BBSのテスト用掲示板です。<br>
+                ここでは、掲示板の機能や使い方についての情報を提供しています。</p>
+                <p>ご意見やご要望がありましたら、<a href="../php/issues.php">お問い合わせ</a>からお知らせください。</p>
+            </div>
+        </main>
     </body>
 </html>
